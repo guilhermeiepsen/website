@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(48, 46, 46);
+    font-family: Arial;
+    color: rgb(27, 165, 27);
+}
+
+header {
+    padding-bottom: 40px;
+}
+
+
+.presenting-flexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-picture {
+    flex: 0.5;
+    width: 30%;
+    border-radius: 50%;
+    padding-bottom: 20px;
+    
+}
+.presenting-paragraph {
+
+    text-align: center;
+}
+
+.professional-paragraph {
+    text-align: center;
+}
