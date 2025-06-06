@@ -34,9 +34,10 @@
 }
 
 #theme-toggle:checked + .slider {
-    background-color: #2196F3;
+    background-color: white;
 }
 
 #theme-toggle:checked + .slider:before {
     transform: translateX(26px);
+    background-color: #ccc;
 }
