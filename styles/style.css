@@ -23,6 +23,10 @@ header {
     align-items: center;
 }
 
+.languages {
+    margin-bottom: 5rem;
+}
+
 .main-picture {
     flex: 0.5;
     width: 20%;
@@ -31,11 +35,23 @@ header {
     
 }
 .presenting-paragraph {
+    text-align: center;
+    margin-bottom: 1rem;
+}
 
+
+.professional-flexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.languages {
     text-align: center;
 }
 
-.professional-paragraph {
+.professional-experiences, .education {
     text-align: center;
-    padding-bottom: 5px;
+    margin-bottom: 5rem;
 }

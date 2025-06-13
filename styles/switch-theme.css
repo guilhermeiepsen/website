@@ -8,9 +8,17 @@
 }
 
 #theme-toggle {
+    position: absolute;
     opacity: 0;
     width: 0;
     height: 0;
+}
+
+#switch-text {
+    font-size: 0.6rem;
+    position: relative;
+    top: 35px;
+    left: 1.5px;
 }
 
 .slider {
@@ -25,7 +33,7 @@
 
 .slider:before {
     position: absolute;
-    content: "";
+    content: '';
     height: 26px; width: 26px;
     border-radius: 50%;
     left: 4px; bottom: 4px;
@@ -33,11 +41,11 @@
     transition: .4s;
 }
 
-#theme-toggle:checked + .slider {
+#theme-toggle:checked ~ .slider {
     background-color: white;
 }
 
-#theme-toggle:checked + .slider:before {
+#theme-toggle:checked ~ .slider::before {
     transform: translateX(26px);
     background-color: #ccc;
 }
